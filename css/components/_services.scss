@@ -1,0 +1,45 @@
+.services {
+    background-color: $bgColor;
+    padding: 140px 0px;
+}
+
+.subtitle {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: $grey;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: $colorTitle;
+}
+
+.services__wrapper {
+    margin-top: 102px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services__item {
+    position: relative;
+
+    &:nth-child(-n + 3) {
+        margin-bottom: 30px;
+    }
+}
+
+.services__item-text {
+    position: absolute;
+    left: 45px;
+    bottom: 45px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: $white;
+}

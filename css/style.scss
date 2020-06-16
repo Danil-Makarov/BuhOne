@@ -1,2 +1,21 @@
 @import "vars";
 
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    // font-family: 'Merriweather', serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@import "components/header";
+@import "components/services";

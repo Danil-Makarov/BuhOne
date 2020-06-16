@@ -1,0 +1,135 @@
+.header__top,
+.header__top-description,
+.header__top-info,
+.header__top-item,
+.header__menu-list {
+    display: flex;
+}
+
+.header__top {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__top-description {
+    flex-direction: column;
+}
+
+.header__top-info {
+    align-items: center;
+    margin: 22px 0px;
+    font-size: 13px;
+    line-height: 17px;
+    color: $black;
+}
+
+.header__top-item {
+    svg {
+        margin-right: 15px;
+    }
+
+    p {
+        margin-right: 38px;
+    }
+}
+
+.header__menu {
+    margin-bottom: 31px;
+}
+
+.header__menu-item {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    &:not(:last-child) {
+        margin-right: 68px;
+    }
+
+    a {
+        color: $lightBlack;
+        text-decoration: none;
+    }
+}
+
+.header__slider,
+.slick-list,
+.slick-track {
+    height: 670px;
+}
+
+.header__slider-title {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: $white;
+    margin-top: 170px;
+    margin-bottom: 80px;
+}
+
+.header__slider-btn {
+    width: 270px;
+    height: 60px;
+    background-color: $blue;
+    border: none;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+}
+
+.header__slider-arrow {
+    position: absolute;
+    bottom: 113px;
+    z-index: 5;
+    width: 60px;
+    height: 60px;
+    background: $black;
+    opacity: 0.2;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        opacity: 0.4;
+    }
+}
+
+.arrow-prev {
+    right: 260px;
+}
+
+.arrow-next {
+    right: 200px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 113px;
+    left: 100px;
+    display: flex;
+
+    li {
+        margin-right: 40px;
+
+        &.slick-active {
+            button {
+                opacity: 1;
+            }
+        }
+
+        button {
+            border: none;
+            width: 10px;
+            height: 10px;
+            background-color: $white;
+            opacity: 0.4;
+            font-size: 0;
+            border-radius: 20px;
+        }
+    }
+}
