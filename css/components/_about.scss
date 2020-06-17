@@ -1,0 +1,73 @@
+.about-us {
+    padding: 140px 0px;
+}
+
+.about-us__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__descriprion {
+    width: 450px;
+}
+
+.about-us__company-name {
+    color: $blue;
+}
+
+.about-us__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 60px;
+    color: $black;
+}
+
+.about-us__items {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.about-us__item {
+    width: 255px;
+    height: 255px;
+    background-color: $bgColor;
+    margin-right: 30px;
+    position: relative;
+}
+
+.about-us__item-title {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $black;
+}
+
+.about-us__item-text {
+    position: absolute;
+    top: 114px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: $black;
+}
+
+.about-us__item-link {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: $blue;
+    text-decoration: none;
+    border-bottom: 1px solid $blue;
+    padding-bottom: 2px;
+}

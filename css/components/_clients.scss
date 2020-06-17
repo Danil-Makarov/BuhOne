@@ -1,0 +1,51 @@
+.our-clients {
+    padding-top: 140px;
+    padding-bottom: 210px;
+    background-color: $bgColor;
+
+    .slick-list {
+        height: auto;
+    }
+
+    .slick-track {
+        height: auto;
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: -100px;
+        
+        li {
+    
+            button {
+                background-color: $blue;
+            }
+        }
+    }
+}
+
+.our-clients__slider {
+    margin-top: 80px;
+}
+
+.our-clients__slider-item {
+    height: auto;
+}
+
+.our-clients__slider-arrow {
+    position: absolute;
+    bottom: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px; 
+    background-color: $blue;
+    border: none;
+    opacity: .5;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+

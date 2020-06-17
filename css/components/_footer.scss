@@ -1,0 +1,12 @@
+.footer__text {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        font-size: 14px;
+        line-height: 19px;
+        color: $black;
+    }
+}
